@@ -12,15 +12,6 @@
 [syn] Remove _DSM methods	syntax/remove_DSM.txt
 [syn] Remove _PSS placeholders	syntax/fix_PSS.txt
 [igpu] --> Intel Graphics Patches	NullPatch.txt
-[igpu] HD3000 Low Resolution	graphics/graphics_HD3K_low.txt
-[igpu] HD3000 High Resolution	graphics/graphics_HD3K_high.txt
-[igpu] HD4000 Low Resolution	graphics/graphics_HD4K_low.txt
-[igpu] HD4000 High Resolution	graphics/graphics_HD4K_high.txt
-[igpu] Haswell HD4400/HD4600/HD5000	graphics/graphics_Haswell_0a260006.txt
-[igpu] Haswell HD4600 Yosemite	graphics/graphics_HD4600_yosemite.txt
-[igpu] HD3000 on 7-series	graphics/graphics_MEI_sandy.txt
-[igpu] HD4000 on 6-series	graphics/graphics_MEI_ivy.txt
-[igpu] Generic with EDID	graphics/graphics_EDID.txt
 [igpu] Brightness fix	graphics/graphics_PNLF.txt
 [igpu] Brightness fix (HD3000/HD4000)	graphics/graphics_PNLF_ivy_sandy.txt
 [igpu] Brightness fix (Haswell/Broadwell)	graphics/graphics_PNLF_haswell.txt
@@ -31,14 +22,9 @@
 [igpu] Rename PCI0.GFX0 to PCI0.IGPU	graphics/graphics_Rename-PCI0_GFX0.txt
 [igpu] Rename B0D3 to HDAU	graphics/graphics_Rename-B0D3.txt
 [gfx0] --> Disable Nvidia/Radeon	NullPatch.txt
-[gfx0] Cleanup/Fix Errors (SSDT)	graphics/graphics_SSDT-disable-cleanup.txt
-[gfx0] Disable from _INI (SSDT)	graphics/graphics_INI-disable.txt
 [gfx0] Disable from _REG (DSDT)	graphics/graphics_REG-disable.txt
 [gfx0] Disable/Enable on _WAK/_PTS (DSDT)	graphics/graphics_PTS_WAK-disable.txt
 [usb] --> USB (ECHI) Patches	NullPatch.txt
-[usb] 6-series USB	usb/usb_6-series.txt
-[usb] 7-series/8-series USB	usb/usb_7-series.txt
-[usb] 7-series USB3 Multiplex	usb/usb_7-series-multiplex.txt
 [usb] USB3 _PRW 0x0D (instant wake)	usb/usb_prw_0x0d_xhc.txt
 [usb] USB3 _PRW 0x6D (instant wake)	usb/usb_prw_0x6d_xhc.txt
 [usb] USB3 _PRW 0x0D Skylake (instant wake)	usb/usb_prw_0x0d_xhc_skl.txt
@@ -152,7 +138,6 @@
 [wifi] AR9285 WiFi RP02-WLAN	wifi/wifi_AR9285-RP02-WLAN.txt
 [wifi] AR9285 WiFi RP02-WNIC	wifi/wifi_AR9285-RP02-WNIC.txt
 [misc] --> Fan control/temperature/LID status patches	NullPatch.txt
-[misc] Poll for LID changes	misc/misc_LidPoll.txt
 [misc] Remove _PRW from LID	misc/misc_Lid_PRW.txt
 [sys] --> System Patches	NullPatch.txt
 [sys] IRQ Fix	system/system_IRQ.txt
@@ -168,7 +153,6 @@
 [sys] OS Check Fix (Windows 10)	system/system_OSYS_win10.txt
 [sys] OS Check Fix (Linux)	system/system_OSYS_linux.txt
 [sys] AC Adapter Fix	system/system_ADP1.txt
-[sys] Add MCHC	system/system_MCHC.txt
 [sys] Fix _WAK Arg0 v1	system/system_WAK1.txt
 [sys] Fix _WAK Arg0 v2	system/system_WAK2.txt
 [sys] Fix _WAK IAOE	system/system_IAOE.txt
@@ -178,7 +162,6 @@
 [sys] Haswell LPC	misc/misc_Haswell-LPC.txt
 [sys] Skylake LPC	misc/misc_Skylake-LPC.txt
 [audio] --> Audio	NullPatch.txt
-[audio] Audio Layout 2	audio/audio_HDEF-layout2.txt
-[audio] Audio Layout 14	audio/audio_HDEF-layout14.txt
 [audio] Audio Layout 3	audio/audio_HDEF-layout3.txt
-[audio] Audio Layout 12	audio/audio_HDEF-layout12.txt
+[audio] More properties	audio/audio_HDEF-layout12-More.txt
+
